@@ -1,0 +1,71 @@
+#collector{
+    height: 400px;
+    width: 800px;
+    border: dotted;
+    border-width: 10px;
+    border-color: green;
+    text-decoration-color: white;
+    position: absolute;
+    left:20%;
+    padding: 20px;
+}
+#YEAH{
+    top: 10%;
+    width:30px;
+    height: 30px;
+    position: absolute;
+    border: dotted;
+    border-radius: 30px;
+    transition: all 1.5s linear;
+    
+
+}
+#YEAH:hover {
+    
+    cursor: pointer;
+    width: 250px;
+    height: 300px;
+    background-image: url("https://64.media.tumblr.com/tumblr_m56g7utdjj1qajc4eo2_250.gif") ;
+    background-size: cover;
+}
+
+#start{
+    background-image: url("https://files.gamebanana.com/img/ss/textures/51b2fcda0be37.jpg");
+    width: 100px;
+    height: 60px;
+    font: times;
+    border: groove;
+    border-radius: 20px;
+    top: 65%;
+    left:39%;
+    font-family: 'Times New Roman';
+    position: absolute;
+    color: darkblue;
+    transition: all 1s linear;
+}
+
+#start:hover {
+    cursor: pointer;
+    transform: rotateY(360deg);
+}
+#remove{
+    background-image: url("https://files.gamebanana.com/img/ss/textures/51b2fcda0be37.jpg");
+    width: 100px;
+    height: 60px;
+    font-family: 'Times New Roman';
+    border: groove;
+    border-radius: 20px;
+    top: 65%;
+    position: absolute;
+    left: 49%;
+    color: rebeccapurple;
+    transition: all 1s linear;
+}
+#remove:hover {
+    cursor: pointer;
+    transform: rotateX(360deg);
+}
+
+body{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F0ZH00x8YVZI%2Fmaxresdefault.jpg&f=1&nofb=1");
+}
